@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title> Registeration </title>
+		<link rel="stylesheet" href="acc.css">
+	</head>
+<body>
+
+<section>
+	<div class="box" >
+
+		<form action="">
+			<h1> Create your profile</h1>
+			<br><br><br><br><br><br>
+			<input type="text" placeholder="First Name*" value="" ><br><br><br>
+			<input  type="text" placeholder="Last Name*" value=""><br><br>
+
+			<p><input  type="text" placeholder="Phone*" value=""pattern="[0-9]{10}"><input  type="text" style="float:right" placeholder="E-Mail*" value=""pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"></p><br><br>
+
+
+
+			 <p><button id="b2" type="button" onclick="window.location.href='https://www.twitter.com'" >
+			<span class="fa fa-male"> &nbspMale</span></button>
+			<button id="b3" type="button" onclick="window.location.href='https://www.facebook.com'">
+		<span class="fa fa-female"> &nbspFemale</span></button><input list="countries" placeholder="City,State,Countries" style="float:right"><datalist id="countries">
+					<option value="pune,maharastra,india">
+					<option value="austria">
+					<option value="sri lanka">
+					<option value="australia">
+					<option value="pakistan">
+							<option value="india">
+					<option value="austria">
+					<option value="sri lanka">
+					<option value="australia">
+					<option value="pakistan">
+							<option value="india">
+					<option value="austria">
+					<option value="sri lanka">
+					<option value="australia">
+					<option value="pakistan">
+			</datalist></p><br><br>
+			<input  type="text" placeholder="Bio" id="p11" value=""><br><br>
+
+		<button  id="b1" type="button" onclick="alert('Registeration successful')"> SUBMIT </button><br>
+
+
+		</form>
+
+	</div>
+	<div ><img id="ava" src="./avatar.png">
+
+		<input id="file" type="file" name="myfile">
+	</div>
+	</section>
+	</body>
+</html>
